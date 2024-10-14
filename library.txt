@@ -1,3 +1,16 @@
 nome tabella: auto usate
 
 
+- id
+- marca
+- colore
+- prezzo
+- modello
+- anno
+- chilometraggio
+- carburante
+- trasmissione
+- cilindrata
+- potenza
+- disponibile
+
