@@ -1,16 +1,16 @@
 nome tabella: auto usate
 
 
-- id
-- marca
-- colore
-- prezzo
-- modello
-- anno
-- chilometraggio
-- carburante
-- trasmissione
-- cilindrata
-- potenza
-- disponibile
+- id               -BRIGINT
+- marca            -VARCHAR (255)
+- colore           -VARCHAR(50)
+- prezzo           -DECIMAL
+- modello          -VARCHAR (255)
+- anno             -YEAR
+- chilometraggio   -USIGNED INT
+- carburante       -VARCHAR(50)
+- trasmissione     -VARCHAR(50)
+- cilindrata       -DECIMAL
+- potenza          -USIGNET SMALLINT
+- disponibile      -BOOLEAN
 
