@@ -1,16 +1,17 @@
 nome tabella: auto usate
 
 
-- id               -BRIGINT
-- marca            -VARCHAR (255)
-- colore           -VARCHAR(50)
-- prezzo           -DECIMAL
-- modello          -VARCHAR (255)
-- anno             -YEAR
-- chilometraggio   -USIGNED INT
-- carburante       -VARCHAR(50)
-- trasmissione     -VARCHAR(50)
-- cilindrata       -DECIMAL
-- potenza          -USIGNET SMALLINT
-- disponibile      -BOOLEAN
+- id               -BRIGINT              -PRIMARY_KEY, AUTO_INCREMENT, NOT NULL
+- marca            -VARCHAR (255)        -NOT NULL
+- colore           -VARCHAR(50)          -NULL
+- prezzo           -DECIMAL              -NOT NULL
+- modello          -VARCHAR (255)        -NOT NULL
+- anno             -YEAR                 -NOT NULL
+- chilometraggio   -USIGNED INT          -NOT NULL
+- carburante       -VARCHAR(50)          -NOT NULL
+- trasmissione     -VARCHAR(50)          -NULL
+- cilindrata       -DECIMAL              -NOT NULL
+- potenza          -USIGNET SMALLINT     -NULL
+- disponibile      -BOOLEAN              -NOT NULL, DEFAULT TRUE
+- note             -TEXT                 -NULL
 
